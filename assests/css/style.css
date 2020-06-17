@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost: 100, 200, 300, 400, 500, 600, 700| Playfair: 100, 200, 300, 400, 500, 600, 700');
+/*-------------FONT CDN added INTENT check this----------------*/
+/* ---------------------------------------BODY----------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+body {
+    font-family: Jost, sans-serif;  /*Overall Font--*/
+    color: black; /*Overall Colour throughout document---*/
+}
+
+/*----------------------------------NAVIGATION SECTION-------------------*/
+/*To stick to the top of the page at all times. No padding at the top or left and sits in front by z-index 5*/
+#navbar{ 
+position: fixed;
+top: 0; 
+left: 0;
+z-index: 1;
+}
+
+#navbarNav{ /*navbar is transparent but this container has opaque background*COMEBACK BACKGROUND OVER THE BAR ITSELF/
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+}
+
+/*Navigation bar customised using CSS to make height of my logo bigger on the page*/
+.navbar-brand img {
+    height: 100px; /*height increased to appear bigger on the screen*/
+    padding-left: 0px;
+}
+
+.navbar-nav {/*Navigation bar customised using CSS to make the background: color COMEBACK BACKGROUND OVER EACH MENU HEADING */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+}
+
+/*Navigation link items arranged in the Navbar to provide enough room between each visually*/
+.navbar-nav li{
+  padding:0, 30px;
+  margin-left:50px;
+  margin-right:15px;
+}
+
+/*Navigation link items colour changed to black*/
+#navbar-nav ul li a{
+    color: red;
+}
+
+/*Navigation link items animation added to change colours when the mouse covers it*/
+#navbar-nav ul li a:hover{
+    color: green!important;
+}
