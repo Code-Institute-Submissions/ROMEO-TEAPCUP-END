@@ -150,11 +150,19 @@ hero-outer {
     background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
 }
 
-.rome-container #text-muted{ /*NOT FINISHED not cganging to white*/
+.rome-container .text-muted{ /*NOT FINISHED not cganging to white*/
     color: white;
 }
 
 .h2 {
     text-align: center;
 }
+/*----------------------------ROMES CLOSET Jumbotron Bootstrap ended-------------------*/
 
+#instagram{
+    background-color: white;/*for illustration purpose remember to change back to white*/
+    background-size: contain;
+    padding-top: 1%;
+    position: center;
+    text-align: center;
+}
