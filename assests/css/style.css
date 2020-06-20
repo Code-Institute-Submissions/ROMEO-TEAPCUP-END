@@ -89,12 +89,12 @@ hero-outer {
         transform: scale(1.1)
     }
 }
-#cover-text, #cover-text h1{
+#cover-text, #cover-text h1{/*heading text over hero image styled*/
     color: whitesmoke;
     text-align: center;
 }
 
-#cover-text{
+#cover-text{ /*text over hero image styled*/
     font-size: 140%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -119,3 +119,15 @@ hero-outer {
     padding-top: 3%;
     position: left;
     font-style: italic;
+}
+
+#measurements{
+    background-color: yellow;
+    background-size: contain;
+    padding-top: 1%;
+    position: center;
+}
+
+#measurements li{
+    line-height: 37px;
+}
