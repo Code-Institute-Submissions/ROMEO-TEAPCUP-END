@@ -132,3 +132,29 @@ hero-outer {
     line-height: 37px;
 }
 
+/*-- Romes Closet Shop section created to include Jumbatron taken from Bootstrap and edited in HTML & CSS and links to Dog Boutique Store INTENTION  --->*/
+/*----------------------------ROMES CLOSET Jumbotron Bootstrap added and backgroung image added -------------------------------*/
+.romes-closet{
+    background-image: url('https://www.telegraph.co.uk/content/dam/Pets/spark/royal-canin/labrador-puppies-running-xlarge.jpg');
+    background-size: 1650px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    bottom: 0px;
+    padding:0;
+}
+
+.rome-container{
+    color: white;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+}
+
+.rome-container #text-muted{ /*NOT FINISHED not cganging to white*/
+    color: white;
+}
+
+.h2 {
+    text-align: center;
+}
+
