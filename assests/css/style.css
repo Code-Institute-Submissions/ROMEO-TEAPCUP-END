@@ -199,3 +199,17 @@ footer{
     margin: 0;
     padding: 5%;
     color: black;}
+
+/*--Page 2----*/
+/*---------------GALLERY PAGE 2---------------*/
+#photo{
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+} 
+/*--GALLERY PAGE 2 END --------*/ 
