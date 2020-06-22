@@ -18,7 +18,7 @@
   </button>  <!---------Button that appears on smaller sreen-->
   <div class="collapse navbar-collapse" id="navbarNav"> <!---Collapse Button-->
     <ul class="navbar-nav ml-auto"><!---Added to push items to the right-->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="#"><i class="fas fa-home" aria-hidden="true"></i>Home</a></li><!---Home Icon from Fontawsome added-->
       <li class="nav-item active">
         <a class="nav-link" href="https://www.facebook.com/login.php"><i class="fab fa-facebook-f"></i> Facebook</a></li>
@@ -37,23 +37,20 @@
 <!---NAVAGATION BAR END---> 
 </header>
 <body>
-    <div class="container">
-  <form action="action_page.php">
+<section id="form">
+<div class="container">
+<form action="action_page.php">
 
-    <label for="fname">First Name</label>
+    <label for="fname"><b>First Name</b></label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
+    <label for="lname"><b>Last Name</b></label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
-    <label for="subject">Subject</label>
+    <label for="subject"><b>Message</b></label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
