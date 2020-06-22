@@ -26,18 +26,13 @@ left: 0;
 z-index: 5;
 }
 
-#navbarNav{ /*navbar is transparent but this container has opaque background*/
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
-}
-
 /*Navigation bar customised using CSS to make height of my logo bigger on the page*/
 .navbar-brand img {
     height: 100px; 
     padding-left: 0px;
 }
 
-.navbar-nav {
+.navbar-nav {/*navbar is transparent but this container has opaque background for clarity*/
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
 }
