@@ -208,7 +208,26 @@ footer{
     width: 100%;
 } 
 /*--GALLERY PAGE 2 END --------*/ 
+
 /*CONTACT PAGE-------*/
+#contact-info{
+    background-color: white;
+    background-size: contain;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    position: center;
+    font-style: italic;
+}
+
+#contact-info h2{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#contact-info .lead{
+    text-align: center;
+    line-height: 20px;
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -237,7 +256,7 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
+#form .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
