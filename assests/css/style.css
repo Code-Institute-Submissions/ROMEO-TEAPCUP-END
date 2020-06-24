@@ -159,6 +159,13 @@ hero-outer {
     text-align: center;
 }
 /*----------------------------ROMES CLOSET Jumbotron Bootstrap ended-------------------*/
+/*---------Social Media Platforms--------------*/
+#social-media{
+    text-align: center;
+    padding-top: 9%;
+    padding-bottom: 3%;
+
+}
 /*---------------TIKTOK Video---------------*/
 #tik-tok{
     background-color: white;/*for illustration purpose remember to change back to white*/
