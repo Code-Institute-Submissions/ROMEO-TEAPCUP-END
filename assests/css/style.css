@@ -111,15 +111,21 @@ hero-outer {
 #about{
     background-color: white;
     background-size: contain;
-    padding-top: 3%;
+    padding-top: 9%;
+    padding-bottom: 4%;
     position: left;
     font-style: italic;
+}
+
+#about h2{
+    text-align: center;
+    padding-bottom: 1%;
 }
 
 #measurements{
     background-color: white;/*for illustration purpose remember to change back to white*/
     background-size: contain;
-    padding-top: 1%;
+    padding-bottom: 3%;
     position: center;
 }
 
